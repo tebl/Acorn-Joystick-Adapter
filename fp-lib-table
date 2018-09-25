@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Connectors_DSub)(type Github)(uri "$(KIGITHUB)/Connectors_DSub.pretty")(options "")(descr ""))
+)
