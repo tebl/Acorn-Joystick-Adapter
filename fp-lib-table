@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name Connectors_DSub)(type Github)(uri "$(KIGITHUB)/Connectors_DSub.pretty")(options "")(descr ""))
+  (lib (name RND_DSUB)(type KiCad)(uri "$(KIPRJMOD)/RND_DSUB.pretty")(options "")(descr ""))
 )

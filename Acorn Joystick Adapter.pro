@@ -1,4 +1,4 @@
-update=25/09/2018 22:51:35
+update=30/09/2018 02:14:12
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -72,3 +70,5 @@ LibName30=atmel
 LibName31=contrib
 LibName32=valves
 LibName33=ports
+[general]
+version=1
