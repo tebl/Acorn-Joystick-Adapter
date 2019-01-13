@@ -9,7 +9,7 @@ The circuit needed to convert from the micro-switched Atari joystick to the anal
 Rumours have it that the circuit could also be used to connect joysticks to an Acorn Electron with the Plus One expansion, but unless someone donates one of them to me that'll have to be a question for the ages.
 
 # Schematic
-The supplied KiCad files should be sufficient as both a schematic and as a  starting point for ordering PCBs (basically you could just zip the contents of the export folder and upload that on a fabrication site), the schematic is also available in [PDF-format](https://github.com/tebl/ZX-AMX-Adapter/raw/master/ZX%20AMX%20Adapter/export/ZX%20AMX%20Adapter.pdf) and this is what you'll need to print and work your way through this things don't work as expected after assembly.
+The supplied KiCad files should be sufficient as both a schematic and as a  starting point for ordering PCBs (basically you could just zip the contents of the export folder and upload that on a fabrication site), the schematic is also available in [PDF-format](https://github.com/tebl/Acorn-Joystick-Adapter/raw/master/export/Acorn%20Joystick%20Adapter.pdf) and this is what you'll need to print and work your way through this things don't work as expected after assembly.
 
 # BOM
 Most parts should be easy to get a hold of from your favourite local electronic component shop though you might have to consider other sources for the older parts such as the CPU and memory. Personally I bought most components with free shipping from China via AliExpress - prices will vary, but I found everything in larger quantities than needed for the cost of a few cups of fancy coffee! 
@@ -18,7 +18,7 @@ Values in parenthesis is the component amounts that could be considered optional
 
 | Reference               | Item                                   | Count |
 | ----------------------- | -------------------------------------- | ----- |
-| PCB                     | Fabricate using Gerber files ([order](https://www.pcbway.com/project/shareproject/W217819ASE8_RC1802_UI.html))  |     1 |
+| PCB                     | Fabricate using Gerber files ([order](https://www.pcbway.com/project/shareproject/Acorn_Joystick_Adapter__Revision_A_.html?inviteid=88707))  |     1 |
 | J1                      | DB15 male connector, PCB mount         |     1 |
 | J2,J3                   | DB9 male connector (2 rows), PCB mount |     1 |
 | J3                      | DB9 male connector (2 rows), PCB mount |   (1) |
@@ -29,3 +29,5 @@ Values in parenthesis is the component amounts that could be considered optional
 | R12,R14,R16,R19,R21     | 10k ohm resistor                       |   (5) |
 | R2,R4,R6,R7,R9,R11      | 20k ohm resistor                       |    5  |
 | R13,R15,R17,R18,R20,R22 | 20k ohm resistor                       |  (5)  |
+
+Please use the order link above when signing up to help me support this project, I'll get a small discount on future orders and hopefully that means I can afford to keep developing new and exciting modules in the future. By using the URL you won't have to deal with the rather daunting order forms for PCB fabrication, but if you want to go that route they'll probably want a zipped-up copy of the files in the export-directory!
