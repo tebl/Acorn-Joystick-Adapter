@@ -5,6 +5,7 @@
 *.bak
 *.bck
 *.kicad_pcb-bak
+*.lck
 
 # Netlist files (exported from Eeschema)
 *.net
@@ -12,4 +13,4 @@
 # Autorouter files (exported from Pcbnew)
 .dsn
 *.zip
-Resources/
+resources/
